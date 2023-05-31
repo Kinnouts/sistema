@@ -10,10 +10,10 @@ Class Categoria
 
 	}
 
-	//Implementamos un método para insertar registros
+	//Implementamos un método para insertar registros en tabla
 	public function insertar($nombre,$descripcion)
 	{
-		$sql="INSERT INTO categoria (nombre,descripcion,condicion)
+		$sql="INSERT INTO categoria (nombre, descripcion, condicion)
 		VALUES ('$nombre','$descripcion','1')";
 		return ejecutarConsulta($sql);
 	}
