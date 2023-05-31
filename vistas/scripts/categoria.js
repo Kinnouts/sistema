@@ -53,7 +53,7 @@ function listar()
 		"aProcessing": true,//Activamos el procesamiento del datatables
 	    "aServerSide": true,//Paginación y filtrado realizados por el servidor
 	    dom: 'Bfrtip',//Definimos los elementos del control de tabla
-	    buttons: [		          
+	    buttons: [	//Le estádando funcionalidad a cada botón según la librería	          
 		            'copyHtml5',
 		            'excelHtml5',
 		            'csvHtml5',
@@ -75,7 +75,7 @@ function listar()
 }
 //Función para guardar o editar
 
-function guardaryeditar(e)
+function guardaryeditar(e) //Se descargan usando json, de internet
 {
 	e.preventDefault(); //No se activará la acción predeterminada del evento
 	$("#btnGuardar").prop("disabled",true);
@@ -120,7 +120,7 @@ function desactivar(idcategoria)
 		if(result)
         {
         	$.post("../ajax/categoria.php?op=desactivar", {idcategoria : idcategoria}, function(e){
-        		bootbox.alert(e);
+        		bootbox.alert(e);//Con bootbox se dibuja más lindo el alerta
 	            tabla.ajax.reload();
         	});	
         }

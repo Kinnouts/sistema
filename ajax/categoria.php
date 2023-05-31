@@ -36,7 +36,7 @@ switch ($_GET["op"]){
  	break;
 
 	case 'listar':
-		$rspta=$categoria->listar();
+		$rspta=$categoria->listar();//Respuesta
  		//Vamos a declarar un array
  		$data= Array();
 
