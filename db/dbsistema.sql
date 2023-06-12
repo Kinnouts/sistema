@@ -44,17 +44,8 @@ CREATE TABLE `articulo` (
 --
 
 INSERT INTO `articulo` (`idarticulo`, `idcategoria`, `codigo`, `nombre`, `stock`, `descripcion`, `imagen`, `condicion`) VALUES
-(1, 2, '87678687687687', 'Guitarra Fender Strato Mexico', -18, 'Strato 70&amp;amp;amp;amp;quot;', '1656425319.jpg', 1),
-(2, 2, '678678767jjyu6767', 'Bajo Squier by Fender Mod Jass Bazz7', -65, 'mmmmBajos', '1562794813.jpg', 1),
-(3, 4, '32423423432432432432', 'Caña Saxo Alto Rico 2 1/2', 37, 'cañas', '1562715843.jpg', 1),
-(4, 11, '34534534543543', 'Saxo Tenor Yamaha mod YTS', 20, 'Saxo', '1562715863.jpg', 1),
-(5, 12, '65464654654654665', 'Armónica Oscar Diatónica C', 49, 'Arm', '1562715882.jpg', 1),
-(6, 3, '2343242343242332', 'Bateria Mapex Prodigy', 5, 'batera', '1562794768.jpg', 1),
-(7, 5, '45451121454545454', 'Consola BLG 150 watts 2 x 15&quot;', 5, 'bafles', '1562794723.jpg', 1),
-(8, 17, '5245545jgj545454', 'Bongo Krest 8&quot; 7&quot;', 5, 'Distintos colores', '', 1),
-(9, 8, 'dfdsfw2432', 'varios', 5, 'varios', '1656334709.jpg', 1),
-(10, 2, '', 'varios3', 3, 'adweqwe', '1656364879.png', 1),
-(11, 8, 'ygjghjut756', 'ssdhkjfhskdjfhds', 23, 'sadklasjdlkjasdlas', '', 1);
+
+;
 
 -- --------------------------------------------------------
 
@@ -74,26 +65,20 @@ CREATE TABLE `categoria` (
 --
 
 INSERT INTO `categoria` (`idcategoria`, `nombre`, `descripcion`, `condicion`) VALUES
-(1, 'Guitarras Eléctricass', 'Distintos Modelos', 1),
-(2, 'Bajos Eléctricos', 'Acá van los bajos', 1),
-(3, 'Baterias Acústicas', 'Acá van las baterias', 1),
-(4, 'Accesorios Instrum. Viento', 'accesorios', 1),
-(5, 'Bafles y Consolas', 'Sonido - Varios', 1),
-(8, 'Amplificadores - Varios', 'Amplificador', 1),
-(9, 'Pedales de Efectos', 'Pedales', 1),
-(10, 'Pianos', 'aca va pianos', 1),
-(11, 'Vientos', 'Vientos', 1),
-(12, 'Armónicas', 'aca van las armonicas', 1),
-(13, 'prueba1', 'prueba1', 0),
-(14, 'categoria nueva', 'rebro nuevo', 1),
-(15, 'Indumentaria', 'Acá va indumentaria', 1),
-(17, 'Percusión', 'acá van todos los instrumentos de percusión', 1),
-(18, 'Instrumentos Autoctonos', 'instrumentos de Salta, Jujuy y Sgo del Estero', 1),
-(19, 'dskjfhsdjfhds', 'sdkjfhsdkjfhkdsjfhds', 1),
-(20, 'Nueva 1111', 'categoria', 0),
-(21, 'Catagoria 19', 'descripcion de la categoria', 0),
-(22, 'Panaderia', 'Panificados de elaboracion propia', 1),
-(23, 'kdsjfhskjdhfkds', 'sdjaslkdjaskldjaskl', 1);
+(1, 'Cañas de pescar', 'Distintos Modelos', 1),
+(2, 'Aire Comprimido', 'Con distintas caracteristicas', 1),
+(3, 'Reels', 'Para cañas de pescar', 1),
+(4, 'Señuelos', 'accesorios', 1),
+(5, 'Anzuelos', 'Para cañas de pescar, 1),
+(8, 'Redes-trampas', 'Para pesca', 1),
+(9, 'Indumentaria', 'Para camping', 1),
+(10, 'Herramientas', 'Para camping', 1),
+(11, 'Botes', 'Nautica', 1),
+(12, 'Carpas', 'Camping', 1),
+(13, 'Colchones inflables', 'Camping', 0),
+(14, 'Cocina', 'Para camping', 1),
+(15, 'Accesorios varios', 'Otros', 1),
+;
 
 -- --------------------------------------------------------
 
