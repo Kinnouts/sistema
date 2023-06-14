@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ITVentas Paszco | www.uncaus.edu.ar</title>
+    <title>Pesca y Camping | www.pescaycamping.com.ar</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -27,18 +27,26 @@
 
   </head>
   <body class="hold-transition skin-blue-light sidebar-mini">
+       
     <div class="wrapper">
-
+        
       <header class="main-header">
 
         <!-- Logo -->
+        
+        <!--Necesito poner otra cosa acá en medio para poner una imagend eunas tarariras más a tono con mi página -->
+        <div>
+          <img  src="../public/images/collage2.jpg" alt="Fondo" width="100%" height="150""/>
+
+        </div>
         <a href="index2.html" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>IT</b>Ventas</span>
+          <span class="logo-mini"><b>PyC</b></span><!--Cuando se contrae la barra-->
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>ITVentas</b></span>
+          <span class="logo-lg"><b>Pesca y Camping</b></span>
         </a>
-
+        
+        
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
           <!-- Sidebar toggle button-->
@@ -54,15 +62,15 @@
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <img src="../public/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-                  <span class="hidden-xs">Juan Carlos Arcila</span>
+                  <span class="hidden-xs">Usuario</span>
                 </a>
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
                     <img src="../public/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                     <p>
-                      www.uncaus.edu.ar - Diseño de Sistemas
-                      <small>www.youtube.com/jcarlosad7</small>
+                      www.pescaycamping.com.ar - Presidencia Roque Saénz Peña
+                      <small>ldalda</small>
                     </p>
                   </li>
                   
@@ -80,6 +88,7 @@
           </div>
 
         </nav>
+       
       </header>
       <!-- Left side column. contains the logo and sidebar -->
       <aside class="main-sidebar">

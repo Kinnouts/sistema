@@ -86,7 +86,7 @@ switch ($_GET["op"]){
         require_once "../modelos/Categoria.php";
         $categoria = new Categoria();
  
-        $rspta = $Categoria->select();//Marca error no se que onda
+        $rspta = $categoria->listar();//Marca error. Corregido
  
         while ($reg = $rspta->fetch_object())
                 {
